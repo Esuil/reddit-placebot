@@ -18,8 +18,8 @@ module.exports = {
   bundleAccounts: 1,
 
   // Target image position
-  targetStartX: 12,
-  targetStartY: 74,
+  targetStartX: 1,
+  targetStartY: 169,
 
   drawMode: 'RANDOM', // LEFTTOP | RANDOM
 
