@@ -1,10 +1,9 @@
 # Reddit Placebot
 
-This is a bot I made for the Reddit [/r/place](https://www.reddit.com/r/place/) event of 2017 April Fools Day.
+This is fork of a bot Zequez made for the Reddit [/r/place](https://www.reddit.com/r/place/) event of 2017 April Fools Day.
 
-I made this bot to protect our national flag on [/r/argentina](https://www.reddit.com/r/argentina/)
+Forked for use by /r/Gwent Discord server to protect Gwent logo that was erased before.
 
-![This is how it looks now, but it might change when you read it, visit the placebot-argentina-target repo to see how it actually is right now](https://raw.githubusercontent.com/Zequez/reddit-placebot/master/images/preview.png)
 
 ## Non-tech install
 
@@ -18,8 +17,6 @@ These are the step-by step instructions for non-tech people:
 - Run one time: *install.bat* (Windows) or *install.sh* (Linux or Mac) and wait until it finishes
 - Run every time you want to use it: *start.bat* (Windows) or *start.sh* (Linux or Mac)
 - Configure stuff if you need to on *config.json*, or open the start scripts and add command line arguments there
-
-Para la imagen oficial de Argentina usen *start_argentina.bat* o *start_argentina.sh*
 
 ## Installation
 
@@ -46,14 +43,6 @@ Any command line options will override the options on `config.json`:
   npm run start --target <LOCAL_TARGET_FILE>
   npm run start --target <LOCAL_TARGET_FILE> --startX <targetStartX> --startY <targetStartY>
 ```
-
-### Target Oficial Argentino
-
-Este comando es nosotros _boludo_:
-
-`npm run start --argentinaTarget`
-
-This uses the file at: https://raw.githubusercontent.com/Zequez/placebot-argentina-target/master/official_target.png
 
 ## Configuration
 
