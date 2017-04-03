@@ -18,7 +18,7 @@ module.exports = {
   bundleAccounts: 1,
 
   // The PLACEBOT mark in the world <3
-  targetStartX: 13,
+  targetStartX: 12,
   targetStartY: 74,
 
   drawMode: 'RANDOM', // LEFTTOP | RANDOM
