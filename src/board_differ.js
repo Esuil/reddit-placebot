@@ -29,10 +29,13 @@ function findDifference (boardImg, targetImg)  {
   let boardH = boardImg.bitmap.height
   let W = targetImg.bitmap.width
   let H = targetImg.bitmap.height
+  let targetTotal = 0
+  
   for (let y = 0; y < H; ++y) {
     for (let x = 0; x < W; ++x) {
       let targetPx = targetImg.getPixelColor(x, y)
       if (!colors.isTransparent(targetPx)) {
+		  targetTotal++
         let boardX = config.targetStartX + x
         let boardY = config.targetStartY + y
         if (boardX >= boardW || boardY >= boardH)
@@ -51,6 +54,7 @@ function findDifference (boardImg, targetImg)  {
       }
     }
   }
+  console.log('Missing pixels: ' + actions.length + ' out of ' + targetTotal + ' total ('+ (100-((actions.length / (targetTotal)) * 100).toFixed(1)) +'% done)')
   return actions
 }
 
