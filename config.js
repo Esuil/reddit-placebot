@@ -17,7 +17,7 @@ module.exports = {
   // and paint pixels at the same time
   bundleAccounts: 1,
 
-  // The PLACEBOT mark in the world <3
+  // Target image position
   targetStartX: 12,
   targetStartY: 74,
 
