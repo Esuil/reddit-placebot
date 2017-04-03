@@ -21,7 +21,7 @@ module.exports = {
   targetStartX: 1,
   targetStartY: 169,
 
-  drawMode: 'RANDOM', // LEFTTOP | RANDOM
+  drawMode: 'LEFTTOP', // LEFTTOP | RANDOM
 
   // Testing configuration things
 
