@@ -2,7 +2,7 @@
 
 This is fork of a bot Zequez made for the Reddit [/r/place](https://www.reddit.com/r/place/) event of 2017 April Fools Day.
 
-Forked for use by /r/Gwent Discord server to protect Gwent logo that was erased before.
+Forked for use by [/r/Gwent](https://www.reddit.com/r/gwent/) Discord server to protect Gwent logo that was erased before.
 
 
 ## Non-tech install
